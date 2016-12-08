@@ -185,9 +185,6 @@ while count <= 4800:
 
     currentMovementIndex = random.randint(0, 5)
     currentMovement = movement[currentMovementIndex % 6]
-#for x in range(0, 4800):
-#    for currentMovementIndex in range(0, 6):
-        #currentMovement = movement[currentMovementIndex % 6]
 
     target.write("in: %f %f %f %f %f\n" \
                  % (
